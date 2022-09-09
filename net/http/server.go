@@ -10,7 +10,7 @@ import (
 	"bufio"
 	"bytes"
 	"context"
-	"github.com/CapacitorSet/ja3-server/crypto/tls"
+	"github.com/imlonghao/ja3-server/crypto/tls"
 	"errors"
 	"fmt"
 	"io"

@@ -8,7 +8,7 @@ package httptest
 import (
 	"bufio"
 	"bytes"
-	"github.com/CapacitorSet/ja3-server/crypto/tls"
+	"github.com/imlonghao/ja3-server/crypto/tls"
 	"io"
 	"io/ioutil"
 	"net/http"

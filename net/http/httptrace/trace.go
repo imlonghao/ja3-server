@@ -8,7 +8,7 @@ package httptrace
 
 import (
 	"context"
-	"github.com/CapacitorSet/ja3-server/crypto/tls"
+	"github.com/imlonghao/ja3-server/crypto/tls"
 	"internal/nettrace"
 	"net"
 	"net/textproto"

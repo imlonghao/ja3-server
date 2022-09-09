@@ -326,7 +326,7 @@ func (c *ClientHelloInfo) JA3() string {
 
 	vals = []string{}
 	for _, v := range c.SupportedCurves {
-		if _, ok := greaseTable[v]; ok {
+		if _, ok := greaseTable[uint16(v)]; ok {
 			continue
 		}
 
